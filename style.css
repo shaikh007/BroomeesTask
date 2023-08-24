@@ -41,3 +41,111 @@ nav {
     margin-right: 10px;
     width: 100px;
 }
+
+
+/* main */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}
+
+.main_dotted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 50px;
+    top: 13%;
+    left: 7%;
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+}
+
+.main_dotted .main_dotted1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    height: 100px;
+}
+
+.main_dotted .main_dotted1 div {
+    background-color: rgb(18, 38, 31);
+    width: 3px;
+    height: 3px;
+    border: none;
+    border-radius: 50%;
+}
+
+.main_contents {
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(54, 121, 87);
+    font-weight: bold;
+    border: none;
+    margin-top: 60px;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.main_image {
+    margin-left: 220px;
+    width: 100%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.main_images {
+    object-fit: contain;
+    width: 100%;
+    height: 700px;
+}
+
+.main_download {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -2%;
+    bottom: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.main_scroll {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scroll_arrow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll_num {
+    text-align: center;
+}
+
+
+/* trusted company */
