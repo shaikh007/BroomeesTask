@@ -259,6 +259,7 @@ nav {
     align-items: center;
     color: rgb(63, 109, 94);
     padding-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .bottom .left_bottom {
@@ -336,4 +337,163 @@ nav {
     width: 288px;
     height: 202px;
     object-fit: contain;
+}
+
+
+/* products */
+
+.products {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+    color: rgb(63, 109, 94);
+    margin-bottom: 40px;
+}
+
+.products .products_top {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.products .products_top div h1 {
+    margin-right: 200px;
+    padding-right: 50px;
+}
+
+.products .products_top .see-all {
+    display: flex;
+    align-items: center;
+}
+
+.products .products_top .see-all h6 {
+    padding-right: 20px;
+}
+
+.products .products_top .see-all svg {
+    margin-bottom: 8px;
+}
+
+.products .products_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .products_nav div {
+    margin-right: 30px;
+}
+
+.products .products_nav h6 {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.products .products_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products .products_bottom .products_bottom_top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.products .products_bottom .products_bottom_top div {
+    position: relative;
+}
+
+.products .products_bottom .products_bottom_top .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(245, 172, 77, 0.687);
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.products .products_bottom .products_bottom_top .item-detail {
+    width: 110%;
+    height: 300px;
+    padding: 37px;
+    margin-bottom: 100px;
+    background-color: rgba(232, 232, 232, 0.386);
+}
+
+.products .products_bottom .products_bottom_top .item-img img {
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: -42%;
+    right: -54%;
+    transform: translate(-76%, -94%);
+    z-index: 3;
+    padding-bottom: 40px;
+}
+
+.products .products_bottom .products_bottom_bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.products .products_bottom .products_bottom_bottom div {
+    position: relative;
+}
+
+.products .products_bottom .products_bottom_bottom .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(245, 172, 77, 0.687);
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.products .products_bottom .products_bottom_bottom .item-detail {
+    width: 110%;
+    height: 300px;
+    padding: 37px;
+    margin-bottom: 100px;
+    background-color: rgba(232, 232, 232, 0.386);
+}
+
+.products .products_bottom .products_bottom_bottom .item-img img {
+    mix-blend-mode: multiply;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    background-image: none;
+    top: -42%;
+    right: -54%;
+    transform: translate(-76%, -94%);
+    z-index: 3;
+    padding-bottom: 40px;
+}
+
+
+/* clients */
+
+.clients {
+    height: 700px;
+    padding-top: 70px;
+    margin-top: 50px;
+    width: 100%;
 }
