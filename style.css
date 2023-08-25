@@ -6,7 +6,8 @@
     transition: ease;
 }
 
-body {
+body,
+html {
     width: 100%;
 }
 
